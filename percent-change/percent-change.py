@@ -1,12 +1,13 @@
 def percent_change(series):
-    """
-    Compute the fractional change between consecutive values.
-    """
-    # Write code here
-    series = np.array(series)
-    #res = np.zeros_like(series)
-    res = (series[1:] - series[:-1])/series[:-1]
-    res[np.isinf(res)] = 0
-    return res 
-
+    result = []
     
+    for i in range(1, len(series)):
+        prev = series[i - 1]
+        curr = series[i]
+        
+        if prev == 0:
+            result.append(0.0)
+        else:
+            result.append((curr - prev) / prev)
+    
+    return result
