@@ -5,5 +5,7 @@ def bert_pooler(hidden_states: np.ndarray, W_pool: np.ndarray,
     """
     Returns the float64 pooled states with shape (B, D).
     """
-    out = np.tanh(hidden_states[:,0,:]@W_pool+b_pool)
+    h = hidden_states[:,0,:]
+    this = h@W_pool + b_pool  
+    out = np.tanh(this)
     return out 
