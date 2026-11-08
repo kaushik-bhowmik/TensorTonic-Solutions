@@ -81,6 +81,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Data Drift Detection | Detect feature drift by computing total variation distance between reference and production histograms. | https://www.tensortonic.com/problems/data-drift-detection |
 | Implement Dice Loss | Compute Dice loss for segmentation predictions using overlap, total mass, and a numerical smoothing term. | https://www.tensortonic.com/problems/dice-loss |
 | Differencing | Transform a time series into lagged differences while preserving the requested differencing interval. | https://www.tensortonic.com/problems/differencing |
+| Diagonal Gaussian KL Divergence | Compute the closed-form KL divergence between two diagonal Gaussians given means and log variances, as used in the DDPM bound. | https://www.tensortonic.com/problems/diffusion-l01-diagonal-gaussian-kl |
 | Linear Beta Schedule | Build the DDPM linear noise schedule in NumPy, returning the betas, alphas and cumulative alpha_bars for every timestep. | https://www.tensortonic.com/problems/diffusion-l02-linear-beta-schedule |
 | Implement Dot Product | Implement the dot product of equal-length numeric vectors by summing element-wise products without library shortcuts. | https://www.tensortonic.com/problems/dot-product |
 | Double Exponential Smoothing | Apply Holt double exponential smoothing to a time series by updating level and trend components. | https://www.tensortonic.com/problems/double-exponential-smoothing |
