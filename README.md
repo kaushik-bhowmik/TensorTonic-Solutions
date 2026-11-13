@@ -85,6 +85,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Diagonal Gaussian KL Divergence | Compute the closed-form KL divergence between two diagonal Gaussians given means and log variances, as used in the DDPM bound. | https://www.tensortonic.com/problems/diffusion-l01-diagonal-gaussian-kl |
 | Reparameterized Gaussian Sample | Draw Gaussian samples with the reparameterization trick, writing each sample as a deterministic function of noise. | https://www.tensortonic.com/problems/diffusion-l01-reparameterized-gaussian-sample |
 | Linear Beta Schedule | Build the DDPM linear noise schedule in NumPy, returning the betas, alphas and cumulative alpha_bars for every timestep. | https://www.tensortonic.com/problems/diffusion-l02-linear-beta-schedule |
+| Frechet Distance Between Feature Sets | Compute the Frechet distance between Gaussian fits of two feature sets, the math behind FID, with a stable matrix square root. | https://www.tensortonic.com/problems/diffusion-l07-frechet-distance |
 | Implement Dot Product | Implement the dot product of equal-length numeric vectors by summing element-wise products without library shortcuts. | https://www.tensortonic.com/problems/dot-product |
 | Double Exponential Smoothing | Apply Holt double exponential smoothing to a time series by updating level and trend components. | https://www.tensortonic.com/problems/double-exponential-smoothing |
 | Implement Dropout (Training Mode) | Implement training-mode dropout in NumPy with random masking and inverted scaling of retained activations. | https://www.tensortonic.com/problems/dropout-training |
@@ -145,6 +146,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | One-Hot Encoding (Multi-class) | Convert multiclass integer labels into a NumPy one-hot matrix with one active column per sample. | https://www.tensortonic.com/problems/one-hot-encoding |
 | Ordinal Encoding | Map ordered categorical values to integer ranks using a supplied category ordering and preserve input order. | https://www.tensortonic.com/problems/ordinal-encoding |
 | Pad Sequences | Pad or truncate variable-length token ID sequences in NumPy with configurable maximum length and padding values. | https://www.tensortonic.com/problems/pad-sequences |
+| PCA Projection | Project centered observations onto supplied principal components to produce lower-dimensional features. | https://www.tensortonic.com/problems/pca-projection |
 | Percent Change | Compute period-over-period percentage changes in a numeric time series with defined initial-value handling. | https://www.tensortonic.com/problems/percent-change |
 | Percentiles / Quantiles | Calculate requested percentiles from numeric data using the interpolation rule specified by the problem. | https://www.tensortonic.com/problems/percentiles |
 | Perplexity Computation | Compute language-model perplexity from token probability distributions and the observed token indices. | https://www.tensortonic.com/problems/perplexity-computation |
